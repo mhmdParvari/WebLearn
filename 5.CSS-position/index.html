@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <style>
+            div{
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                border-style: solid;
+                border-radius: 300px;
+                border-right-color: transparent;
+                border-bottom-color: transparent;
+                border-left-color: transparent;
+                border-width: 80px;
+            }
+            
+            #yellow-part{
+                border-top-color: rgb(251,188,5);
+                transform: rotate(-90deg);
+            }
+
+            #blue-part{
+                border-top-color: rgb(66,133,244);
+                transform: rotate(127deg);
+            }
+
+            #red-part{
+                border-top-color: rgb(234, 67, 53);
+                /* border-left-color: red; */
+                transform: rotate(-15deg);
+            }
+
+            #green-part{
+                border-top-color: rgb(52,168,83);
+                transform: rotate(-165deg);
+            }
+
+            section{
+                width: 230px;
+                height: 88px;
+                background-color: rgb(66,133,244);
+                border-bottom-right-radius: 50px;
+                position: absolute;
+                left: 236px;
+                top: 205px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="yellow-part"></div>
+        <div id="blue-part"></div>
+        <div id="red-part"></div>
+        <div id="green-part"></div>
+        <section></section>
+    </body>
+</html>
